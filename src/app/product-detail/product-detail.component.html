@@ -1,0 +1,23 @@
+<div class="product_image_area" *ngIf="product">
+    <div class="container">
+        <div class="row s_product_inner">
+            <div class="col-lg-6">
+                <div class="s_product_img">
+                    <img src="{{product.productImageUrl}}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="s_product_text">
+                    <h3>{{product.productName}}</h3>
+                    <h2>{{product.productPrice | currency:'USD'}}</h2>
+                    <ul class="list">
+                        <li><a class="active" href="#"><span>Category</span> : {{product.productCategory}}</a></li>
+                        <li><a href="#"><span>Quantity</span> : {{product.productQuatity}}</a></li>
+                    </ul>
+                    <p>{{product.productDescription}}</p>
+                    <p>Product Seller: {{product.productSeller}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 395px;
+}
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 395px;
+    background: #e8f0f2;
+    z-index: 1;
+}
+.banner_area .banner_inner .banner_content h2 {
+    color: #222222;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 12px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.banner_area .banner_inner .banner_content .page_link a {
+    font-size: 14px;
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    margin-right: 32px;
+    position: relative;
+}
