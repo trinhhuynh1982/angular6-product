@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
@@ -9,6 +11,12 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
+import { AccordionBasicComponent } from './accordion-basic/accordion-basic.component';
+import { AccordionStaticComponent } from './accordion-static/accordion-static.component';
+import { AccordionComponent } from './accordion/accordion.component';
+import { AccordionToggleComponent } from './accordion-toggle/accordion-toggle.component';
+import { AccordionPreventChangeComponent } from './accordion-prevent-change/accordion-prevent-change.component';
+import { AccordionConfigComponent } from './accordion-config/accordion-config.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +25,17 @@ import { BannerComponent } from './banner/banner.component';
     ProductDetailComponent,
     HeaderComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    AccordionBasicComponent,
+    AccordionStaticComponent,
+    AccordionComponent,
+    AccordionToggleComponent,
+    AccordionPreventChangeComponent,
+    AccordionConfigComponent
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     HttpClientModule,
     AppRoutingModule
   ],

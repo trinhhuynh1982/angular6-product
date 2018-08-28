@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 150.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-1.jpg",
+            "productQuatity": 2,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 2,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 180.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-2.jpg",
+            "productQuatity": 2,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 3,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 190.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-3.jpg",
+            "productQuatity": 3,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 4,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 500.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-3.jpg",
+            "productQuatity": 4,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 5,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 780.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-4.jpg",
+            "productQuatity": 5,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 6,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 980.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-6.jpg",
+            "productQuatity": 6,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 7,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 450.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-7.jpg",
+            "productQuatity": 7,
+            "productSeller": "H&M"
+        },
+        {
+            "id": 8,
+            "productName": "Long Sleeve TShirt",
+            "productCategory": "Household",
+            "productPrice": 250.00,
+            "productDescription": "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+            "productImageUrl": "https://colorlib.com/preview/theme/listashop/img/product/feature-product/f-p-8.jpg",
+            "productQuatity": 8,
+            "productSeller": "H&M"
+        }
+    ]
+}
