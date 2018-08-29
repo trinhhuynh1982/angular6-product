@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AccordionToggleComponent } from './accordion-toggle.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 describe('AccordionToggleComponent', () => {
   let component: AccordionToggleComponent;
@@ -8,7 +9,8 @@ describe('AccordionToggleComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AccordionToggleComponent ]
+      declarations: [ AccordionToggleComponent ],
+      imports: [NgbModule.forRoot()]
     })
     .compileComponents();
   }));

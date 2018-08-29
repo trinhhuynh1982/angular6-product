@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AccordionComponent } from './accordion.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
 
 describe('AccordionComponent', () => {
   let component: AccordionComponent;
@@ -8,7 +10,8 @@ describe('AccordionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AccordionComponent ]
+      declarations: [ AccordionComponent ],
+      imports: [NgbModule.forRoot(), RouterModule]
     })
     .compileComponents();
   }));

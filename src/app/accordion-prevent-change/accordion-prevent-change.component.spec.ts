@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AccordionPreventChangeComponent } from './accordion-prevent-change.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 describe('AccordionPreventChangeComponent', () => {
   let component: AccordionPreventChangeComponent;
@@ -8,7 +9,8 @@ describe('AccordionPreventChangeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AccordionPreventChangeComponent ]
+      declarations: [ AccordionPreventChangeComponent ],
+      imports: [NgbModule.forRoot()]
     })
     .compileComponents();
   }));

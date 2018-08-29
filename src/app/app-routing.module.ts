@@ -9,6 +9,7 @@ import { AccordionStaticComponent } from './accordion-static/accordion-static.co
 import { AccordionToggleComponent } from './accordion-toggle/accordion-toggle.component';
 import { AccordionPreventChangeComponent } from './accordion-prevent-change/accordion-prevent-change.component';
 import { AccordionConfigComponent } from './accordion-config/accordion-config.component';
+import { IcrdcrValueComponent } from './icrdcr-value/icrdcr-value.component';
 
 const routes: Routes = [
     { path: '', component: ProductsComponent },
@@ -38,6 +39,10 @@ const routes: Routes = [
                 component: AccordionConfigComponent 
             }
           ]
+    },
+    {
+        path: 'simple',
+        component: IcrdcrValueComponent
     }
 ];
 

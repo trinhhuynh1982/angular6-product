@@ -17,6 +17,7 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { AccordionToggleComponent } from './accordion-toggle/accordion-toggle.component';
 import { AccordionPreventChangeComponent } from './accordion-prevent-change/accordion-prevent-change.component';
 import { AccordionConfigComponent } from './accordion-config/accordion-config.component';
+import { IcrdcrValueComponent } from './icrdcr-value/icrdcr-value.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AccordionConfigComponent } from './accordion-config/accordion-config.co
     AccordionComponent,
     AccordionToggleComponent,
     AccordionPreventChangeComponent,
-    AccordionConfigComponent
+    AccordionConfigComponent,
+    IcrdcrValueComponent
   ],
   imports: [
     BrowserModule,
